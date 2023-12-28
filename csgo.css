@@ -1,0 +1,69 @@
+h2{
+    font-style: calc();
+}
+
+
+.bookMarks{
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    
+}
+
+#descriptionID{
+    text-wrap: 1;
+    background-color: beige;
+    width: 800px;
+    height: 180px;
+    display: inline;
+    margin: 40px;
+}
+
+#logoId{
+    height: 180px;
+    
+}
+
+.videoLink{
+    margin-left: 300px;
+    border: 1cap    ;
+}
+
+#video1{
+    margin-left: 50px;
+    display: inline;
+
+}
+#video2{
+    margin-left: 50px;
+}
+#video3{
+    margin-left: 50px;
+}
+#video4{
+    margin-left: 50px;
+}
+#video5{
+    margin-left: 50px;
+}
+#video6{
+    margin-left: 50px;
+}
+#video7{
+    margin-left: 50px;
+}
+#video8{
+    margin-left: 50px;
+}
+#video9{
+    margin-left: 50px;
+}
+#video10{
+    margin-left: 50px;
+}
+#video11{
+    margin-left: 50px;
+}
+#video12{
+    margin-left: 50px;
+}
