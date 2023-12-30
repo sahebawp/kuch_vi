@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Flexxi</title>
+    <style>
+        .container{
+            width:950px;
+            height: 380px;
+            display: flex;
+            background-color: lightslategray;
+            flex-direction: row;
+            align-items: stretch;
+        }
+        #gaming_Alias{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            margin: 50px;
+        }
+        @media (max-width:640px) {
+            .container{
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <div class="container">
+        <div class="box" id="gaming_Alias">
+            
+            <input type="radio" name="gaming_Alias" id="fighterChulbul">
+            <label for="fighterChulbul">FighterChulbul</label>
+            
+            <input type="radio" name="gaming_Alias" id="malen">
+            <label for="malen">Malen</label>
+            
+            <button>Choose the Name</button>
+        </div>
+        <div class="box" id="gaming_Logo">
+            <img src="/logo.jpg" alt="logo">
+        </div>
+    </div>
+</fieldset>
+</body>
+</html>
