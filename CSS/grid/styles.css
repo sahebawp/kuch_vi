@@ -1,13 +1,15 @@
 .container{
-    display: grid;
-    box-sizing: border-box;
-    height: 200px;
-    width: 200px;
-    border: 1px solid green;
+    background-color: limegreen;
+    border: 5px solid violet;
+    height: 800px;
 
+    display: grid;
+
+    grid-template-rows: 30px 35px 500px 25px;
+    grid-template-columns: 700px;
 }
 
 .box{
-    border: 2px solid red;
-    
+    background-color: lightpink;
+    border: 3px solid black;
 }
