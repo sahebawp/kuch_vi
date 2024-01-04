@@ -1,0 +1,22 @@
+:root{
+    /* --color-green: pink; */
+
+
+}
+
+*{
+    --color: pink; 
+}
+
+
+.conatiner{
+    background-color: lightgreen;
+    border: 5px solid black;
+    height: 300px;
+}
+
+.box{
+    /* background-color: greenyellow; */
+    background-color: var(--color);
+    border: 2px solid brown;
+}
