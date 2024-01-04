@@ -1,0 +1,31 @@
+.container{
+    height:890px;
+    width: 1080px;
+    background-color: lightgrey;
+    border: 3px solid green;
+    display: flex;
+
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 300px;
+    
+    background-color: aquamarine;
+    border: 2px solid lightsalmon;
+
+
+    transition: all 1s ease-in;
+    /* transition: all 1s cubic-bezier(0,2.67,1,-1.53); */
+    
+    
+}
+
+.box:hover{
+    /* transform: skewX(45deg); */
+    transform: translateX(500px) rotate(360deg);
+
+    background-color: violet;
+}
+
